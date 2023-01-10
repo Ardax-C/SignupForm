@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Challenge</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <div id="banner">
+                    <h1 class="heading">Sign Up</h1>
+                    <h3 class="subheading">
+                        It's free and only takes a minute
+                    </h3>
+                </div>
+                <form action="data.php" class="form-group">
+                    <!-- First Name -->
+                    <label for="first-name" id="fname-label">First Name</label>
+                    <input
+                        type="text"
+                        name="first-name"
+                        id="first-name"
+                        class="text-input"
+                    />
+                    <!-- Last Name -->
+                    <label for="last-name" id="lname-label">Last Name</label>
+                    <input
+                        type="text"
+                        name="last-name"
+                        id="last-name"
+                        class="text-input"
+                    />
+                    <!-- Email -->
+                    <label for="email" id="email-label">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="text-input"
+                    />
+                    <!-- Password -->
+                    <label for="password" id="password-label">Password</label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="text-input"
+                    />
+                    <!-- Password confirm -->
+                    <label for="password-confirm" id="confirm-label"
+                        >Confirm Password</label
+                    >
+                    <input
+                        type="password"
+                        name="password-confirm"
+                        id="password-confirm"
+                        class="text-input"
+                    />
+                    <!-- Submit button -->
+                    <button type="reset" class="btn">Sign Up</button>
+                    <p class="terms">
+                        By clicking the Sign Up button, you agree to our
+                        <a href="#">Terms & Conditions</a> and
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <!-- Login redirect -->
+        <div id="login">
+            <p>Already have an account? <a href="#">Login Here</a></p>
+        </div>
+    </body>
+</html>
